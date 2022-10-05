@@ -1,0 +1,27 @@
+#contact {
+    padding: 25px 0px 25px 0px;
+}
+
+#con_row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+    flex-wrap: wrap;
+}
+
+.con_col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.con_col .address {
+    font-weight: 600;
+    color: #292929;
+}
+
+.con_col p a {
+    text-decoration: none;
+    color: #292929;
+}
